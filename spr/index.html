@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <!-- Audio background -->
+    <audio id="backgroundAudio" autoplay loop>
+        <source src="romantica.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="signature">Berzerk</div>
+    <div class="container">
+        <div>
+            <h1 class="header_text">Você gostaria de ficar comigo para sempre?</h1>
+            <h1 class="header_text">Ana Nelly, duas maçãs? feliz dia dos namorados!!!</h1>
+            <h2 class="subtitle_text">Você não pode dizer não! mas testa só pra você ver</h2>
+        </div>
+        <div class="gif_container">
+            <img src="hello.gif" alt="Cute animated illustration">
+        </div>
+        <div class="buttons">
+            <button class="btn" id="yesButton" onclick="nextPage()">Sim</button>
+            <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">Não</button>
+        </div>
+    </div>
+    <div id="heartsContainer"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
